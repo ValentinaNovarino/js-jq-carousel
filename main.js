@@ -24,8 +24,6 @@ $(document).ready(function() {
             // se non c'è un elemento successivo (img) assegno la classe alla prima img
             $(".slides img:first-child").addClass("active");
             // se non c'è un elemento successivo (i) assegno la classe alla prima i
-            // $(".bullets i:first-child").removeClass("far");
-            // $(".bullets i:first-child").addClass("fas");
             $(".bullets i:first-child").removeClass("far");
             $(".bullets i:first-child").addClass("fas");
         }
@@ -54,12 +52,9 @@ $(document).ready(function() {
             // se non c'è un elemento precedente assegno la classe alla prima img
             $('.slides img:last-of-type').addClass("active");
             // se non c'è un elemento successivo (i) assegno la classe alla prima i
-            // $(".bullets i:first-child").removeClass("far");
-            // $(".bullets i:first-child").addClass("fas");
             $(".bullets i:last-of-type").removeClass("far");
             $(".bullets i:last-of-type").addClass("fas");
 
         }
     });
-
 });
