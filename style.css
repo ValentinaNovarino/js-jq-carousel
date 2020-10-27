@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-carousel {
+    height: 450px;
+    width: 700px;
+    margin: 70px auto 0;
+}
+
+.arrow-left, .arrow-right {
+    width: 70px;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    width: calc(100% - 140px);
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.slides img.active {
+    display: block;
+}
