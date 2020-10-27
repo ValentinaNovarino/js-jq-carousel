@@ -25,6 +25,7 @@
     height: 100%;
     background-color: red;
     float: left;
+    position: relative;
 }
 
 .slides img {
@@ -36,4 +37,21 @@
 
 .slides img.active {
     display: block;
+}
+
+.bullets {
+    display: flex;
+    justify-content: center;
+}
+
+.bullets span {
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.bullets span.active {
+    background-color: black;
 }
